@@ -13,3 +13,10 @@
 - *ngFor:illa saimme listan heroista näkyviin
 
 - class bindauksella saimme CSS toimimaan
+
+3. Create a feature component
+
+- Loimme uudelleenkäytettävän komponentin nimeltä HeroDetailComponent
+
+- Käytimme property bindausta, jotta HeroesComponent sai ohjat
+  lapsikomponentilta HeroDetailComponent
