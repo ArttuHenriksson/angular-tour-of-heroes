@@ -1,0 +1,5 @@
+1. Vaihe The hero editor
+
+- Aluksi luotiin uusi komponentti heroes
+- Importoimme FormsModulen AppModuleen jotta angular tunnistaa ngModelin
+- Lisäsimme Äiti komponenttiin heroes komponentin jotta sain sen näkyviin
