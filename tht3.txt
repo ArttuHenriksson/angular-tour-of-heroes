@@ -20,3 +20,6 @@
 
 - Käytimme property bindausta, jotta HeroesComponent sai ohjat
   lapsikomponentilta HeroDetailComponent
+
+
+  
