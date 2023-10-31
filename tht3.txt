@@ -21,5 +21,7 @@
 - Käytimme property bindausta, jotta HeroesComponent sai ohjat
   lapsikomponentilta HeroDetailComponent
 
+- @Input():illa saimme hero propertyn bindattua
+
 
   

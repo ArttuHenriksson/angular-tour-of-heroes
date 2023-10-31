@@ -10,6 +10,7 @@ import { HEROES } from '../mock-heroes';
 })
 export class HeroesComponent {
   heroes = HEROES;
+  // TS-piirrre optionaalinen property, selectedHero voi olla myös undefined
   selectedHero?: Hero;
 
   onSelect(hero: Hero): void {

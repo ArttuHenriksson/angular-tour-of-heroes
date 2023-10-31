@@ -8,5 +8,7 @@ import { Hero } from '../hero';
   styleUrls: ['./hero-detail.component.css'],
 })
 export class HeroDetailComponent {
+  // TS-piirre. @Input() kertoo, että hero tulee inputtina
+  // äitikomponentila. hero on optionaalinen, eli voi olla undefined
   @Input() hero?: Hero;
 }

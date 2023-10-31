@@ -1,8 +1,9 @@
 <!-- HTML - Templaatti, se mitä käyttäjä näkee-->
 <h2>My Heroes</h2>
-
+<!--luodaan sankarilistaa heroes-taulukosta *ngFor - looppia käyttäen-->
 <ul class="heroes">
   <li *ngFor="let hero of heroes">
+    <!--class-binding-->
     <button
       [class.selected]="hero === selectedHero"
       type="button"
@@ -13,5 +14,6 @@
     </button>
   </li>
 </ul>
-
+<!--property-binding bindaa selectedHeron lapsikomponentin
+hero-propertyyn, eli välitetään propsi äidiltä lapselle-->
 <app-hero-detail [hero]="selectedHero"></app-hero-detail>
