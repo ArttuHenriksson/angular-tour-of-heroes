@@ -29,4 +29,10 @@
 
   - Luotiin servicet
 
+
+5. Add navigation
+
+- Routerilla tehtiin navigointi sovellukseen
+
+
   
