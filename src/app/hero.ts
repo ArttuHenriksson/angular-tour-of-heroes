@@ -5,3 +5,5 @@ export interface Hero {
   id: number;
   name: string;
 }
+
+// Interfacea ei ole JavaScriptissä
